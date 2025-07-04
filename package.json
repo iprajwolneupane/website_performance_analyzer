@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npx puppeteer browsers install chrome && next dev --turbopack",
-    "build": "pnpm install --ignore-scripts && npx puppeteer browsers install chrome && next build",
+    "build": "npx puppeteer browsers install chrome && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -31,10 +31,10 @@
     "typescript": "^5"
   },
   "pnpm": {
-    "allowBuild": {
-      "puppeteer": true,
-      "@tailwindcss/oxide": true,
-      "sharp": true
-    }
+    "onlyBuiltDependencies": [
+      "puppeteer",
+      "@tailwindcss/oxide",
+      "sharp"
+    ]
   }
 }
