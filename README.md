@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+---
+
+**Special Notes:**
+
+- The UI for this project was designed using [Vercel v0 AI](https://vercel.com/v0).
+- The project was developed using the [Cursor](https://www.cursor.so/) AI IDE.
+- The application is deployed on [Vercel](https://vercel.com/).
+
+---
+
 ## Getting Started
 
 First, run the development server:
@@ -32,5 +42,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+> **Note:**
+>
+> - This application is deployed on Vercel.
+> - The UI was designed with Vercel v0 AI.
+> - The project was developed using the Cursor AI IDE.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
